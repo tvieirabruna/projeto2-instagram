@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>  
+
+    <title>Instagram</title>
+</head>
+<body>
+
+    <!--Definição da página-->
+    
+    <div class="page">
+
+        <!--Definição do topo com as logos e ícones-->
+        <div class="top">
+
+            <div class="top-left">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <img src="images/logo.png" class="logo desktop"/>
+            </div>
+
+            <div class="top-middle">
+            <input type="text" class="search" placeholder="Pesquisar">
+            <img src="images/logo.png" class="logo mobile">
+            </div>
+
+            <div class="top-right">
+                <ion-icon name="paper-plane-outline"></ion-icon>
+                <ion-icon name="compass-outline"></ion-icon>
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="person-outline"></ion-icon>
+            </div>
+
+        </div>
+
+        <!--Definição do conteúdo abaixo do topo composto pelo feed e menu lateral -->
+        <div class="content">
+
+            <!--Feed composto pelos stories e posts-->
+            <div class="feed">
+
+                <!--Stories-->
+                <div class="stories">
+
+                    <!--Seta do scroll-->
+                    <ion-icon name="chevron-forward-circle-sharp" class="scroll"></ion-icon> 
+
+                    <!--Story-->                    
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/9gag 1.png"></div>
+                        <h5>9gag</h5>                               
+                    </div>
+
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/meowed 1.png"></div>
+                        <h5>meowed</h5>                
+                    </div>
+                
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/barked 1.png"></div>
+                        <h5>barked</h5>                
+                    </div>
+                
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/nathanwpylestrangeplanet 1.png"></div>
+                        <h5>nathanpyle...</h5>                
+                    </div>
+                
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/wawawiwacomicsa 1.png"></div>
+                        <h5>wawawiwac...</h5>                
+                    </div>
+                
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/respondeai 1.png"></div>
+                        <h5>respondeai</h5>                
+                    </div>
+                
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/filomoderna 1.png"></div>
+                        <h5>filomoderna</h5>                
+                    </div>
+
+                    <div>
+                        <img src="images/stories_background.jpg">
+                        <div class="image-story"><img src="images/stories/memeriagourmet 1.png"></div>
+                        <h5>memeriago</h5>                
+                    </div>
+                </div>
+
+                <!--Posts-->
+                <div class="post">
+                    <div class="user">
+                        <div>
+                        <img src="images/feed/meowed 2.png"><h1>meowed</h1>
+                        </div>
+
+                        <div>
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                        </div>
+
+                    </div>
+
+                    <img src="images/feed/gato-telefone 1.png">
+
+                    <div class="interaction">
+                        <div>
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="likes">
+                        <img src="images/feed/respondeai 2.png">
+                        <h2>Curtido por <span>respondeai</span> e <span>outras 101.523 pessoas</span></h2>
+                    </div>
+
+                    <div class="post-description">
+                        <h1>meowed</h1>O que será que ele está assistindo? 👀🐱
+                    </div>
+                    <div class="comments-number">
+                        <h3>Ver todos os 23 comentários</h3>
+                    </div>
+                    <div class="comments">
+                        <div>
+                            <div>
+                                <h1>barked</h1><h2>Procurando a resposta do projeto no Stackoverflow!</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <div>
+                            <div>
+                                <h1>filomoderna</h1><h2>Assistindo aula!</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <p>HÁ 1 HORA</p>
+
+                    </div>
+                    <div class="add-comment">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="write-comment" placeholder="Adicione um comentário">
+                        <button class="publish">Publicar</button>
+                    </div>
+                </div>
+            
+                <div class="post">
+                    <div class="user">
+                        <div>
+                        <img src="images/feed/barked 2.png"><h1>barked</h1>
+                        </div>
+
+                        <div>
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                        </div>
+
+                    </div>
+
+                    <img src="images/feed/dog 1.png">
+
+                    <div class="interaction">
+                        <div>
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="likes">
+                        <img src="images/feed/adorableanimals 2.png">
+                        <h2>Curtido por <span>adorable_animals</span> e <span>outras 99.159 pessoas</span></h2>
+                    </div>
+
+                    <div class="post-description">
+                        <h1>barked</h1>Awnnnn, que neném! 🐶
+                    </div>
+                    <div class="comments-number">
+                        <h3>Ver todos os 47 comentários</h3>
+                    </div>
+                    <div class="comments">
+                        <div>
+                            <div>
+                                <h1>meowed</h1><h2>Queria essa vida!</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <div>
+                            <div>
+                                <h1>nathanpyle...</h1><h2>😻</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <p>HÁ 5 HORAS</p>
+
+                    </div>
+                    <div class="add-comment">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="write-comment" placeholder="Adicione um comentário">
+                        <button class="publish">Publicar</button>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="user">
+                        <div>
+                        <img src="images/feed/barked 2.png"><h1>barked</h1>
+                        </div>
+
+                        <div>
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                        </div>
+
+                    </div>
+
+                    <video autoplay="autoplay" muted="muted">
+                        <source src="videos/video.mp4" type="video/mp4" />
+                        <source src="videos/video.ogv" type="video/ogv" />
+                        Seu navegador não suporta vídeos.
+                    </video>
+
+                    <div class="interaction">
+                        <div>
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <ion-icon name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="likes">
+                        <img src="images/feed/adorableanimals 2.png">
+                        <h2>Curtido por <span>adorable_animals</span> e <span>outras 105.485 pessoas</span></h2>
+                    </div>
+
+                    <div class="post-description">
+                        <h1>barked</h1> 🐻
+                    </div>
+                    <div class="comments-number">
+                        <h3>Ver todos os 18 comentários</h3>
+                    </div>
+                    <div class="comments">
+                        <div>
+                            <div>
+                                <h1>meowed</h1><h2>A natureza é linda!</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <div>
+                            <div>
+                                <h1>wawawiwac...</h1><h2>De boa na lagoa</h2>
+                            </div>
+                            <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+                        </div>
+
+                        <p>HÁ 15 HORAS</p>
+
+                    </div>
+                    <div class="add-comment">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <input class="write-comment" placeholder="Adicione um comentário">
+                        <button class="publish">Publicar</button>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="user">
+                        <div>
+                        <img src="images/feed/meowed 2.png"><h1>meowed</h1>
+                        </div>
+
+                        <div>
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                            <img src="images/feed/Vector.png">
+                        </div>
+
+                    </div>
+
+                    <img src="images/feed/gato-telefone 3.png">
+
+                    
+                </div>
+
+            </div>
+
+            <!--Menu lateral direito-->
+            <div class="right-menu">
+
+                <div class="account">
+                    <img src="images/account/catanacomics 1.png">
+                    <div>
+                        <h1>catanacomis</h1>
+                        <h3>Catana</h3>
+                    </div>
+                </div>
+
+                <div class="suggestions">
+                    <h4>Sugestões para você</h4>
+                    <h5><span>Ver tudo</span></h5>
+                </div>
+
+                <div class="suggestion">
+                    <div>
+                        <img src="images/account/badvibesmemes 1.png">
+                        <div>
+                            <h1>bad.vibes.memes</h1>
+                            <p>Segue você</p>
+                        </div>
+                    </div>
+                        <h6>Seguir</h6>
+                </div>
+
+                <div class="suggestion">
+                    <div>
+                        <img src="images/account/chibirdart 1.png">
+                        <div>
+                            <h1>chibirdart</h1>
+                            <p>Segue você</p>
+                        </div>
+                    </div>
+                        <h6>Seguir</h6>
+                </div>
+
+
+                <div class="suggestion">
+                    <div>
+                        <img src="images/account/razoesparaacreditar 1.png">
+                        <div>
+                            <h1>razoesparaacreditar</h1>
+                            <p>Novo no Instagram</p>
+                        </div>
+                    </div>
+                        <h6>Seguir</h6>
+                </div>
+
+                <div class="suggestion">
+                    <div>
+                        <img src="images/account/adorableanimals 1.png">
+                        <div>
+                            <h1>adorable_animals</h1>
+                            <p>Segue você</p>
+                        </div>
+                    </div>
+                        <h6>Seguir</h6>
+                </div>
+
+                <div class="suggestion">
+                    <div>
+                        <img src="images/account/smallcutecats 1.png">
+                        <div>
+                            <h1>smallcutecats</h1>
+                            <p>Segue você</p>
+                        </div>
+                    </div>
+                        <h6>Seguir</h6>
+                </div>
+
+                <div class="infos">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+                    Termos • Localizações • Contas mais relevantes • Hashtags • 
+                    Idioma
+                    <br><br><br>
+                    © 2021 INSTAGRAM DO FACEBOOK                    
+                </div>           
+    </div>
+   </body>
+</html>
