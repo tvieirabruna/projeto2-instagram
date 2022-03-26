@@ -48,6 +48,10 @@ ion-icon {
     box-sizing: border-box;
 }
 
+.search:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: #979797;
     font-size: 12px;
