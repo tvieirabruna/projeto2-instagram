@@ -219,6 +219,10 @@ video {
     margin-bottom: 10px;
 }
 
+.comments div div h2 {
+    margin-left: 5px;
+}
+
 .comments ion-icon {
     width: 15px;
     height: 15px;
